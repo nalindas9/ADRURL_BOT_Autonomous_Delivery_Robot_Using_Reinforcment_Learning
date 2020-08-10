@@ -1,9 +1,18 @@
 # ADRURL_BOT_Autonomous_Delivery_Robot_Using_Reinforcment_Learning
-Developing a robot which makes use of Reinforcement learning method for path planning which can be used in any plant 
+[![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/nalindas9/ADRURL_BOT_Autonomous_Delivery_Robot_Using_Reinforcment_Learning/blob/master/LICENSE)
+
+## Authors
+Nalin Das, Achal Vyas
+
+## About
+In this project, we train a delivery robot agent to autonomously pick up and dropoff packages in a warehouse. We use Q-Learning, and Deep Q Learning to remove the
+redundancy of planning a path every time a pickup or dropoff location changes.
+The task for the robot is to pick up packages from different pickup points and deliver them to any
+of the drop-off locations depending upon the requirement. 
 
 ## Q Learning
 
-### System and library requirements.
+### System and Dependencies
  - Python3
  - Numpy
  - matplotlib
@@ -19,7 +28,7 @@ Developing a robot which makes use of Reinforcement learning method for path pla
 
 ## Deep Q Network
 
-## System and library requirements.
+## System and Dependencies
  - Python3
  - Numpy
  - matplotlib
